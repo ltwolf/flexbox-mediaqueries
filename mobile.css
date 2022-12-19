@@ -1,14 +1,10 @@
-@media (min-width: 420) {
-    div {
-    background-color: yellow;
-    }
-    }
-    @media (max-width: 419) {
-    div {
-    background-color: orange;
+@media screen 
+  and (max-width: 844px) and (min-width: 390px) {
+    div.item {
+    background-color: yellow !important;
     }
     p {
-    color: red;
+    color: red !important;
     }
-    }
+}
     
