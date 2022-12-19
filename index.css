@@ -28,6 +28,8 @@ p {
   /*default is block */
   display: flex;
   justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row-reverse;
 }
 
 .item {
