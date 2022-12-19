@@ -25,7 +25,9 @@ p {
 /****************** Your code below here ***************************/
 
 .container {
-
+  /*default is block */
+  display: flex;
+  justify-content: flex-start;
 }
 
 .item {
