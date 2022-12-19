@@ -27,9 +27,9 @@ p {
 .container {
   /*default is block */
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .item {
