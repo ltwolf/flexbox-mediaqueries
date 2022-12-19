@@ -1,0 +1,14 @@
+@media (min-width: 420) {
+    div {
+    background-color: yellow;
+    }
+    }
+    @media (max-width: 419) {
+    div {
+    background-color: orange;
+    }
+    p {
+    color: red;
+    }
+    }
+    
